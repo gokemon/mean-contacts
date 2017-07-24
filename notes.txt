@@ -1,0 +1,29 @@
+# mean-contacts
+A contact list using the full MEAN stack with ng/cli
+This project is going to evolve from a mere MEAN-stack based 
+ContactList to more in a CI/CD process chain
+https://devcenter.heroku.com/articles/mean-apps-restful-api
+
+
+### Branches
+01-base-app
+02-api-server
+03-ng-app
+
+### Steps
+git checkout -b feature1
+git add -A
+git commit -m "comment"
+git push
+git checkout master
+git pull
+git merge feature1
+git status
+git push
+And because we are going to deploy this to Heroku, we don't need the gh-pages
+
+
+## 01-base-app branch steps
+ng new mean-contacts
+
+https://dashboard.heroku.com/apps/hidden-waters-64856/deploy/heroku-git
